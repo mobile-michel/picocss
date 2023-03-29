@@ -1,0 +1,9 @@
+{
+  "name": "Eleventy & Pico.css",
+  "url": "https://eleventy-pico.ch",
+  "authorName": "Michel Maillard",
+  "authorUrl": "https://michelmaillard.ch/",
+  "description": "Eleventy 2.0.1 with Pico.css & a Sass workflow Tutorial",
+  "favicon": "https://11ty.recipes/images/meta/favicon.svg",
+  "links": ["home", "products", "support"]
+}
