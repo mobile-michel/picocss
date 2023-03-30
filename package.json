@@ -1,13 +1,14 @@
 {
   "name": "picocss",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Eleventy 2.0.1 with Pico.css & a Sass Workflow Tutorial",
+  "main": "eleventy.config.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve"
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "keywords": [],
-  "author": "",
+  "author": "Michel Maillard",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",

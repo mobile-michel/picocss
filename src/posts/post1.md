@@ -8,7 +8,8 @@ title: 01-Installation
 4. In VSCode, open Terminal : `npm init -y`
 5. open package.json & add :
 ```text
-"start": "npx 211ty/eleventy –serve"
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
 ```
 1. create `eleventy.config.js` & add :
 ```text
