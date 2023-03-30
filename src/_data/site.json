@@ -5,5 +5,18 @@
   "authorUrl": "https://michelmaillard.ch/",
   "description": "Eleventy 2.0.1 with Pico.css & a Sass workflow Tutorial",
   "favicon": "https://11ty.recipes/images/meta/favicon.svg",
-  "links": ["home", "products", "support"]
+  "links": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "Blog",
+      "url": "/posts/post1"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 <nav class="container">
     <ul>
         {% for nav in site.links %}
-        <li><a href="{{ nav }}">{{ nav }}</a></li>
+        <li><a href="{{ nav.url }}">{{ nav.text }}</a></li>
         {% endfor %}
     </ul>
 </nav>
