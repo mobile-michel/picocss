@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@picocss/pico": "^1.5.7"
+    "@11ty/eleventy": "^2.0.1",
+    "@picocss/pico": "^1.5.7",
+    "eleventy-sass": "^2.2.1"
   }
 }

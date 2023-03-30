@@ -2,13 +2,16 @@
 title: 01-Installation
 ---
 
-1. Terminal : mkdir picocss
-2. cd picocss
-3. code .
-4. In VSCode, open Terminal : npm init -y
+1. Terminal : `mkdir picocss`
+2. `cd picocss`
+3. `code .`
+4. In VSCode, open Terminal : `npm init -y`
 5. open package.json & add :
+```text
 "start": "npx 211ty/eleventy –serve"
-6. create eleventy.config.js & add :
+```
+1. create `eleventy.config.js` & add :
+```text
 const eleventySass = require("eleventy-sass");
 module.exports = function (eleventyConfig) {
  eleventyConfig.addPlugin(eleventySass);
@@ -23,18 +26,25 @@ module.exports = function (eleventyConfig) {
  }
  };
 };
-7. create /src/_includes/base.njk & add :
-`html:5 + /{/{ content | safe }}`
-8. create /src/index.md & add :
-/---
+```
+1. create `/src/_includes/base.njk` & add :
+```html
+html:5 + /{/{ content | safe }}
+```
+1. create /src/index.md & add :
+```text
+---
 layout: base
-/---
+---
 The first paragraph.
-9. Create /.gitignore & add :
+```
+1. Create `.gitignore` & add :
+```text
 node_modules
 _site
-10. git init
-11. git add --all
-12. git commit -m "First commit"
-13. open GitKraken, Open a Repo, picocss → Choisir
-14. Terminal : npm start
+```
+1.  `git init`
+2.  `git add --all`
+3.  `git commit -m "First commit"`
+4.  open GitKraken, Open a Repo, picocss → Choisir
+5.  Terminal : `npm start`

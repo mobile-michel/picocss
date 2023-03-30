@@ -3,7 +3,7 @@ title: Tutorial
 layout: base
 pagination:
   data: collections.general
-  size: 2
+  size: 3
   alias: posts
 ---
 
